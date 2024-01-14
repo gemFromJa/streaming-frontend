@@ -5,5 +5,22 @@
  - prevent opening dev tool?
 
 ### Required
+Needs companion backend service: https://github.com/gemFromJa/streaming-backend.git
 
-Needs companion backend: https://github.com/gemFromJa/streaming-backend.git
+### Environemnt
+
+In .env file in root folder, add the following
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:[port]
+```
+
+where [port] is the port the server is running
+
+### To Run
+
+Use
+
+```
+npm run dev
+```
